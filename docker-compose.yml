@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  ml:
+    volumes:
+    - ./src:/src/src
+    build:
+      context: .
+    command: ["python", '/src/predict.py']
+    image: gods_recognition
+    env_file:
+      - .env
