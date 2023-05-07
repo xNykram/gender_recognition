@@ -1,4 +1,4 @@
-# Gender Recognition
+# Smite Gender Recognition
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
@@ -6,7 +6,7 @@
 
 ### Description
 
-**Gender Recognition** - is a small project that classifies gender based on the avatars of the gods from the Smite game using PyTorch.
+**Smite Gender Recognition** - is a small project that classifies gender based on the avatars of the gods from the Smite game using PyTorch.
 
 ### Example predictions:
 <details>
