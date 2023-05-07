@@ -3,6 +3,7 @@ services:
   ml:
     volumes:
     - ./src:/src/src
+    - ./output:/src/output/
     build:
       context: .
     command: ["python", '/src/predict.py']
